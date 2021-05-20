@@ -36,9 +36,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .celular {
-    display: flex;
+    display: flex;   
     align-items: center;
-    width: 50%
+    width: 50%;
 }
 
 .celular img {
@@ -194,14 +194,19 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 
-@media (max-width: 1295) {
+@media (max-width: 1265px) {
     .celular {
-        width: 10%;
+        padding-right: 70%;
     }   
-    .grupo {
-        left: 100%;
+    .instagram-corpo {
+        width: 100%;
     }    
 }
+
+@media (max-width: 1296px) {
+    .celular img {
+        height: 40rem;
+    }
 
 
 
